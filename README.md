@@ -32,8 +32,9 @@ app.use(qwvii).mount('#app')
 ```
 
 ### 借用注意
+```
 此项目，可大致直接发布，但是请注意：
 1）发布前需要npm login登录，无账号去npm官网注册+验证邮箱
 2）npm publish时候，package.json每次都需要更新version
 3）若新增了组件想重新发布，记得packages下的index.js需要加上新组件后再npm run lib……npm publish
-
+```
