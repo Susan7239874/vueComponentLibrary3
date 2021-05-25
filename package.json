@@ -1,0 +1,30 @@
+{
+  "name": "qw-vii",
+  "version": "1.0.2",
+  "private": false,
+  "main": "lib/kui.umd.min.js",
+  "description": "qw-vii",
+  "keyword": "qw-vii",
+  "author": "susan",
+  "scripts": {
+    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name kui --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.1",
+    "fxft-tree-select": "^1.2.6",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0"
+  }
+}
